@@ -1,32 +1,31 @@
-.chess_table {
+table {
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
-    height: 400px;
     border: 3px solid black;
-    border-collapse: collapse;
-}
+  }
 
-.heading {
-
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-
-}
-
-.black_cell {
-    background-color: black;
-    width: 50px;
-    height: 50px;
+  .heading {
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
     
-
-
-}
-
-.white_cell {
-    background-color: white;
-}
-
-.row {
-    border: 1px solid black;
-}
+    }
+  
+  .light-cell {
+    background: rgb(251, 197, 146);
+    width: 60px;
+    height: 60px;
+  }
+  
+  .dark-cell {
+    background: rgb(199, 110, 1);
+    width: 60px;
+    height: 60px;
+  }
+  
+  .selected {
+    background: rgb(255, 91, 58);
+  }
+  
+  .possible-move {
+    background: rgb(244, 126, 53);
+  }
